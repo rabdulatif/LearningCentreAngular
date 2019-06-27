@@ -1,1 +1,131 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    position: absolute;
+    width: 100%;
+    color: rgb(79, 95, 111);
+    color: var(--colorText);
+    overflow-x: hidden;
+    background: rgb(240, 243, 246);
+    background: var(--BodyColorBg);
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    display: block;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+*, *::before, *::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: rgb(139, 195, 74);
+    background: var(--colorPrimary);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+}
+
+:root {
+    --colorPrimary: #8bc34a;
+    --colorPrimary-dark: #7eb63c;
+    --colorPrimary-darker: #76ac39;
+    --colorPrimary-darkest: #70a236;
+    --colorPrimary-light: #98ca5e;
+    --colorPrimary-lighter: #9ecd68;
+    --colorPrimary-lightest: #a5d072;
+    --colorSecondary: #536dfe;
+    --colorText: #4f5f6f;
+    --colorText-light: #7e8e9f;
+    --colorText-lighter: #a5b4c3;
+    --colorText-dark: #2f373f;
+    --colorText-darker: #2f373f;
+    --colorText-muted: #c2ccd6;
+    --colorText-inverse: white;
+    --colorText-passive: #c5c5c5;
+    --colorTextSecondary: #757575;
+    --colorDivider: #d7dde4;
+    --colorDivider-light: #f1f3f6;
+    --colorDivider-lighter: white;
+    --colorDivider-dark: #bdc7d2;
+    --colorDivider-darker: #afbbc9;
+    --BodyColorBg: #f0f3f6;
+    --LinkColor: #8bc34a;
+    --LinkColor-hover: #70a236;
+    --LinkFontWeight: 600;
+    --LinkTransition: ease .15s;
+    --LinkTextDecoration: none;
+    --LinkTextDecoration-hover: none;
+    --AppColorBg: #f0f3f6;
+    --AppHeaderHeight: 60px;
+    --AppHeaderHeight-xs: 50px;
+    --AppSidebarWidth: 240px;
+    --AppSidebarWidth-compact: 70px;
+    --AppFooterHeight: 50px;
+    --AppCustomizeWidth: 280px;
+    --AppLayoutTransitionDuration: 0.3s;
+    --HeaderColorBg: white;
+    --HeaderShadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    --HeaderBorderBottom: 1px solid #e0e0e0;
+    --FooterColorBg: white;
+    --FooterShadow: none;
+    --SidebarColorBg: #3b4c5d;
+    --SidebarColorText: rgba(255, 255, 255, 0.8);
+    --SidebarBgImage: url(../src/assets/images/bg/sidebar-bg.jpg);
+    --SidebarBgImageOpacity: 1;
+    --SidebarShadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    --SidebarPaddingHorizontal: 20px;
+    --SidebarNavColorText: rgba(255, 255, 255, 0.6);
+    --SidebarNavColorText-open: rgba(255, 255, 255, 0.6);
+    --SidebarNavColorText-active: white;
+    --PagePaddingVertical-xs: 15px;
+    --PagePaddingHorizontal-xs: 10px;
+    --PagePaddingVertical-sm: 20px;
+    --PagePaddingHorizontal-sm: 20px;
+    --PagePaddingVertical-md: 25px;
+    --PagePaddingHorizontal-md: 20px;
+    --PagePaddingVertical-lg: 25px;
+    --PagePaddingHorizontal-lg: 20px;
+    --PagePaddingVertical-xl: 35px;
+    --PagePaddingHorizontal-xl: 40px;
+    --CardColorBg: #fff;
+    --CardShadow: 1px 1px 5px rgba(0, 0, 0, 0.03);
+    --CardMarginBottom: 15px;
+    --CardMarginBottom-sm: 15px;
+    --CardMarginBottom-md: 20px;
+    --CardMarginBottom-lg: 20px;
+    --CardMarginBottom-xl: 30px;
+    --CardBlockPaddingVertical: 10px;
+    --CardBlockPaddingVertical-xl: 15px;
+    --CardBlockPaddingVertical-sm: 8px;
+    --CardBlockPaddingHorizontal: 15px;
+    --CardBlockPaddingHorizontal-xl: 20px;
+    --CardBlockPaddingHorizontal-sm: 10px;
+    --DropdownColorBg: #fff;
+    --ProgressColorBg: #dddddd;
+}
